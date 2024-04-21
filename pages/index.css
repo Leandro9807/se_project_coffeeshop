@@ -94,7 +94,7 @@
   color: #838383;
 }
 
-.header-span_accent {
+.header-span__accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
