@@ -110,7 +110,7 @@
   background-color: #0a2750;
 }
 
-.recipes_title {
+.recipes__title {
   max-width: 580px;
   color: #fff;
   font-family: "Inter";
@@ -124,7 +124,7 @@
   line-height: 52px;
 }
 
-.recipes_subtitle {
+.recipes__subtitle {
   max-width: 438px;
   color: #fff;
   display: block;
@@ -144,7 +144,7 @@
   display: block;
 }
 
-.recipes_videos {
+.recipes__videos {
   display: flex;
   justify-content: center;
   gap: 40px;
