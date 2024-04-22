@@ -78,7 +78,7 @@
   margin: 28px 0 0;
 }
 
-.header_footer {
+.header__footer {
   display: flex;
   justify-content: space-between;
   margin-top: auto;
@@ -140,7 +140,7 @@
   margin-top: 24px;
 }
 
-.recipes_span-accent {
+.recipes__span {
   display: block;
 }
 
