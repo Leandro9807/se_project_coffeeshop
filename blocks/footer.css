@@ -22,17 +22,23 @@
   color: #fff;
 }
 .footer__social-heading {
+  margin-top: 0;
   margin-bottom: 20px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
 }
-.footer_list-item {
-  margin-bottom: 16px;
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+.footer__list-item {
+  margin: 0;
+  padding-bottom: 16px;
   list-style-type: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -40,16 +46,17 @@
   display: flex;
   flex-direction: row;
 }
-
-.social__icon {
+.footer_list-item:last-child {
+  margin-bottom: 0;
+}
+.footer__social-icon {
   height: 16px;
   width: 16px;
   margin-right: 10px;
 }
-
 .footer__copyright {
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -60,6 +67,7 @@
 }
 .footer__social-link {
   color: #fff;
+  text-decoration: none;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
