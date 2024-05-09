@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .header__image {
   position: absolute;
@@ -19,7 +20,7 @@
   height: 568px;
   z-index: 1;
 }
-.header__nav {
+.nav {
   display: flex;
   justify-content: space-between;
 }
@@ -35,7 +36,7 @@
   margin: 0;
   gap: 20px;
   list-style-type: none;
-  font-family: "Inter", Arial, Sans-Serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -47,14 +48,14 @@
 }
 .nav__link:hover {
   color: #2f80ed;
-  transition-duration: 1s;
+  transition-duration: 0.1s;
   transition-timing-function: linear;
   transition-delay: 0.5s;
 }
 .header__title {
   max-width: 729px;
   margin: 183px 0 0;
-  font-family: "Noto Serif", Arial, Helvetica;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -62,9 +63,19 @@
   color: #2f80ed;
   z-index: 2;
 }
+.text-accent {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  display: block;
+  color:#000;
+}
 .header__description {
   margin: 28px 0 0;
-  font-family: "Noto Serif", Arial, Helvetica;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -75,8 +86,9 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
+  align-content: baseline;
   margin-top: auto;
-  font-family: "Inter", Arial, Sans-Serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -85,20 +97,11 @@
 }
 .header__paragraph {
   margin: 0;
-  font-family: "Inter", Arial, Sans-Serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
 }
-.header__span {
-  color: #000;
-  display: block;
-  font-family: "Inter", Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: -0.6px;
-}
+

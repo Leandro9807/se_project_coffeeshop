@@ -23,7 +23,7 @@
   margin: 0;
   color: #fff;
   max-width: 251px;
-  font-family: "Inter", Arial, Sans-Serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -34,7 +34,7 @@
 }
 .about__content {
   max-width: 660px;
-  font-family: "Noto Serif", Arial, Helvetica;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -48,6 +48,9 @@
   color: #fff;
   margin-top: 0;
   margin-bottom: 20px;
+}
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 .about__circle {
   background-color: #2f80ed;
