@@ -1,5 +1,4 @@
 .reservation {
-  padding: 100px 0 120px;
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
   background-repeat: no-repeat;
@@ -7,7 +6,8 @@
   background-position: center;
 }
 .reservation__title {
-  margin: 0 0 80px;
+  margin: 0;
+  padding-top: 100px;
   text-align: center;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -18,7 +18,8 @@
 .reservation__form {
   margin: 0 auto;
 }
-.form {
+.form {/*Im sorry,I dont know what you want me to do with this*/
+  padding: 80px 0 120px;
   max-width: 385px;
 }
 .form__fieldset {

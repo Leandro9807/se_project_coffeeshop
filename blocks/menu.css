@@ -17,9 +17,8 @@
 }
 .menu__subtitle {
   text-align: center;
-  max-width: 850px;
+  max-width: 780px;
   margin: 0 auto;
-  padding-bottom: 100px;
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
@@ -32,11 +31,15 @@
   flex-wrap: wrap;
   gap: 100px;
   padding: 0;
-  margin: 0;
-  list-style-type: none;
+  margin: 0; 
 }
-.card {
+.card {/*Im sorry,I dont know what you want me to do with this*/
   width: 540px;
+  list-style-type: none;
+  padding-top: 100px;
+}
+.card:last-child {
+  padding-top: 0;
 }
 .card__title {
   margin: 0 0 32px;

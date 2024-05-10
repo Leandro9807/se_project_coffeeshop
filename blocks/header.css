@@ -20,7 +20,7 @@
   height: 568px;
   z-index: 1;
 }
-.nav {
+.nav {/*Im sorry,I dont know what you want me to do with this*/
   display: flex;
   justify-content: space-between;
 }
@@ -63,7 +63,7 @@
   color: #2f80ed;
   z-index: 2;
 }
-.text-accent {
+.span-accent {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;

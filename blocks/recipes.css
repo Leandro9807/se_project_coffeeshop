@@ -28,9 +28,6 @@
   margin-top: 24px;
   margin-bottom: 80px;
 }
-.recipes__span {
-  display: block;
-}
 .recipes__videos {
   display: flex;
   justify-content: center;
