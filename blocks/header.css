@@ -54,7 +54,7 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: end;
   margin-top: auto;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
